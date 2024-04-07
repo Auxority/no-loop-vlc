@@ -38,8 +38,8 @@
   </Settings>
   <Actions Context="Author">
     <Exec>
-      <Command>powershell</Command>
-      <Arguments>-ExecutionPolicy Bypass -File "%USERPROFILE%/Documents/code/sh/vlc-noloop/NoLoopVLC.ps1"</Arguments>
+      <Command>cmd</Command>
+      <Arguments>/c start /min powershell -ExecutionPolicy Bypass -File "%USERPROFILE%/Documents/code/sh/vlc-noloop/NoLoopVLC.ps1"</Arguments>
     </Exec>
   </Actions>
 </Task>
